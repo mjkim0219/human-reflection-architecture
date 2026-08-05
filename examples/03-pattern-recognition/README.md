@@ -1,117 +1,158 @@
-# Example 03 — Pattern Recognition
+# Pattern Recognition
 
 ## Purpose
 
-Pattern Recognition helps identify recurring patterns that are difficult to notice from individual reflections alone.
+Pattern Recognition is a structured process for comparing observations across time in order to identify possible recurring behaviors that may deserve further attention.
 
-Rather than focusing on isolated events, it compares multiple observations over time to support better judgment.
+Its purpose is not to discover hidden truths.
 
-Its purpose is not to predict the future.
+Its purpose is to generate working hypotheses that guide future observation.
 
-Its purpose is to provide stronger evidence for future decisions.
-
----
-
-## Working Hypotheses
-
-Current working hypotheses:
-
-> Individual experiences often do not reveal stable patterns on their own.
-
-> Repeated reflections provide stronger evidence when they can be compared over time.
-
-> Recognizing recurring patterns provides stronger evidence than relying on memory alone.
-
-These hypotheses are intentionally treated as revisable.
-
-They exist to encourage discussion, criticism, and future refinement rather than to establish permanent truths.
+Patterns remain revisable as new evidence becomes available.
 
 ---
 
-## Workflow
+## Pattern Recognition Workflow
 
 ```text
-Reflection
-      ↓
-Structured Records
+Observation
       ↓
 Repeated Observations
       ↓
-Pattern Recognition
+Possible Pattern Hypothesis
       ↓
-Evidence
+Confidence Update
       ↓
-Updated Judgment
+Next Observation
+      ↓
+Human Judgment
 ```
+
+Pattern Recognition begins with observations rather than assumptions.
+
+The workflow does not attempt to explain every observation.
+
+Instead, it asks whether multiple observations may suggest a recurring behavioral pattern that is worth investigating further.
 
 ---
 
 ## Example
 
-### Week 1
+### Recent Observations
 
-Reflection:
+Week 1
 
-> "I spent more time preparing than executing."
+- Spent several days planning before writing code.
+
+Week 3
+
+- Delayed implementation while continuing to improve the design.
+
+Week 6
+
+- Continued refining the architecture before creating a prototype.
+
+↓
+
+### Repeated Observations
+
+Across multiple weeks:
+
+- Planning repeatedly preceded implementation.
+- Similar hesitation appeared before execution.
+- Additional preparation often replaced early experimentation.
+
+↓
+
+### Possible Pattern Hypothesis
+
+Current observations suggest a possible recurring pattern:
+
+> Additional preparation may be replacing early implementation in uncertain projects.
+
+This is a working hypothesis.
+
+It is not a confirmed explanation.
+
+↓
+
+### Confidence Update
+
+Current confidence:
+
+Low → Moderate
+
+Additional observations support the hypothesis,
+but alternative explanations remain possible.
+
+↓
+
+### Next Observation
+
+During future projects:
+
+- Was implementation started earlier?
+- Did earlier implementation improve learning?
+- Were there situations where planning was the better decision?
+- Which observations contradict the current hypothesis?
+
+Future observations may strengthen, weaken, or replace the current hypothesis.
+
+↓
+
+### Human Judgment
+
+Based on the current evidence:
+
+> Begin implementation earlier in similar situations and continue observing the results.
+
+This judgment remains revisable.
 
 ---
 
-### Week 3
-
-Reflection:
-
-> "The same hesitation appeared again."
-
----
-
-### Week 6
-
-Reflection:
-
-> "I delayed action while trying to improve the plan."
-
----
-
-### Pattern Recognition
-
-Repeated pattern detected:
-
-> Preparation repeatedly replaced execution.
-
----
-
-### Evidence
-
-Observed across:
-
-- Multiple weeks
-- Multiple situations
-- Similar decision-making contexts
-
-This is no longer treated as an isolated observation.
-
-It becomes a recurring pattern.
-
----
-
-### Updated Judgment
-
-Instead of making additional assumptions:
-
-- Reduce assumptions.
-- Increase evidence.
-- Review again after execution.
-
----
-
-## Key Idea
-
-Individual reflections provide observations.
-
-Repeated observations provide patterns.
-
-Patterns provide stronger evidence for judgment than memory alone.
+## Guardrails
 
 Pattern Recognition does not produce conclusions.
 
-It provides evidence that supports future judgment.
+It produces hypotheses.
+
+Possible patterns should remain:
+
+- grounded in recorded observations
+- open to counterexamples
+- limited to the observed behavior and context
+- revisable as new evidence becomes available
+
+Repeated observations do not automatically prove that a recurring pattern exists.
+
+Similar outcomes do not necessarily imply the same underlying mechanism.
+
+A valid outcome may also be:
+
+> No recurring pattern is currently supported by the available observations.
+
+Pattern Recognition should never be used to define a person's identity.
+
+Its purpose is to improve future observation—not to explain who someone is.
+
+---
+
+## Why Pattern Recognition?
+
+Human memory naturally focuses on recent experiences and isolated events.
+
+Comparing observations across time may reveal recurring behaviors that would otherwise remain unnoticed.
+
+Pattern Recognition therefore helps transform isolated observations into hypotheses that can be tested through future experience.
+
+Its purpose is not to answer:
+
+> "Who am I?"
+
+but rather:
+
+> "What should I observe next?"
+
+The final interpretation always belongs to the individual.
+
+Future evidence may revise any current hypothesis.
