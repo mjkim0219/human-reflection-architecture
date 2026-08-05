@@ -5,7 +5,7 @@
 [![Feedback](https://img.shields.io/badge/feedback-welcome-brightgreen)](#contributing)
 
 > Human Reflection Architecture is not a productivity system.
-> It is a framework for preserving and improving human judgment in the age of AI.
+> It is a framework for improving human judgment through structured evidence in the age of AI.
 
 This repository is not about making AI think better.
 
@@ -25,13 +25,13 @@ This project explores a different question:
 
 AI does not decide.
 
-AI remembers.
+AI organizes evidence.
 
-AI connects.
+AI connects observations.
 
 AI challenges assumptions.
 
-Humans decide.
+Humans make judgments.
 
 ## What is Human Reflection Architecture?
 
@@ -55,14 +55,16 @@ S3 --> R
 R --> C[Cross-Module Analysis]
 ```
 
- ## Design Philosophy
+## Design Philosophy
 
 - Human reflection comes before AI analysis.
 - Long-term patterns matter more than isolated events.
 - AI should challenge ideas, not replace them.
 - Evidence is preferred over intuition.
+- Working hypotheses are preferred over premature conclusions.
 - Judgment evolves through repeated reflection.
 - Reflection is iterative, not instantaneous.
+- Observations become more valuable when they can be compared over time.
 
 ## What this project is NOT
 
@@ -83,6 +85,7 @@ R --> C[Cross-Module Analysis]
 ✅ A long-term thinking system
 
 ## Repository Structure
+
 ```text
 human-reflection-architecture/
 │
@@ -99,7 +102,7 @@ human-reflection-architecture/
 - [x] Reflection Kernel
 - [x] Core Principle
 - [ ] Documentation
-- [ ] Examples
+- [x] Examples
 - [ ] Community Feedback
 - [ ] v1.1 Planning
 
@@ -108,6 +111,10 @@ human-reflection-architecture/
 Human Reflection Architecture is currently in its first public draft (v1.0).
 
 The goal of this release is not to present a finished framework, but to gather feedback, challenge assumptions, and improve the architecture through real-world discussion.
+
+This version reflects the current evidence available to the maintainer.
+
+Future revisions will be guided by repeated signals from community feedback rather than isolated suggestions.
 
 ## Example
 
@@ -134,13 +141,13 @@ Weekly Reflection
 
 Cross-Module Pattern
 
-Repeated pattern detected:
+Current observations suggest a possible recurring pattern:
 
-> "I tend to over-design before implementation."
+> "I may tend to over-design before implementation."
 
 ↓
 
-Updated Judgment
+Human Judgment
 
 > "Build an MVP first. Collect evidence. Improve later."
 
