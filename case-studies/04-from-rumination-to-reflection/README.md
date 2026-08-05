@@ -5,6 +5,16 @@
 > This case documents a personal change in reflective practice.
 > It does not provide a diagnosis or replace professional mental health care.
 
+## Role in HRA
+
+Unlike the previous case studies, this case does not introduce a new core principle.
+
+It examines situations in which reflection, comparison, and self-observation may become harmful or self-punishing.
+
+Its responsibility is to test and protect the existing principles of Human Reflection Architecture.
+
+---
+
 ## Context
 
 For much of my life, self-criticism was one of my primary sources of motivation.
@@ -222,7 +232,7 @@ Human Reflection Architecture does not assume that every repetitive thought can 
 
 Its role is more limited.
 
-It helps the user notice when thought is no longer producing useful understanding and consider another response.
+It helps the user examine whether their current thinking is still producing useful understanding and consider another response when it is not.
 
 Possible safeguards include:
 
@@ -235,9 +245,9 @@ Possible safeguards include:
 - recognizing rest, delay, and support-seeking as valid responses
 - refusing to treat AI-generated psychological interpretations as diagnoses
 
-AI may help identify a possible loop.
+AI may suggest that a repeated loop could be present based on the information provided by the user.
 
-It does not decide what the loop means.
+It does not independently detect the user’s psychological state, and it does not decide what the loop means.
 
 It should not reinforce self-hatred simply because the user expresses it confidently.
 
