@@ -1,117 +1,135 @@
-# Example 02 — Audit Loop
+# Audit Loop
 
 ## Purpose
 
-The Audit Loop is a structured process for reviewing and improving important judgments.
+An Audit Loop is a structured process for reviewing an artifact through multiple independent perspectives.
 
-Rather than accepting an initial conclusion, it encourages repeated questioning, reflection, and evidence-based revision.
+Its purpose is not to collect more opinions.
 
-Its purpose is not to determine who is correct.
+Its purpose is to gather enough evidence to support or challenge a possible revision.
 
-Its purpose is to improve the quality of judgment.
-
----
-
-## Working Hypotheses
-
-Current working hypotheses:
-
-> Good judgment rarely comes from a single answer.
-
-> Both human reasoning and AI-generated reasoning should be treated as hypotheses rather than conclusions.
-
-Repeated review, counterarguments, reflection, and evidence help improve the quality of judgment over time.
-
-These hypotheses are intentionally treated as revisable.
-
-They exist to encourage discussion, criticism, and future refinement rather than to establish permanent truths.
+The artifact remains the subject of evaluation—not the person who created it.
 
 ---
 
-## Workflow
+## Audit Workflow
 
 ```text
-Initial Judgment
-        ↓
-Independent Review
-        ↓
-Counterargument
-        ↓
-Reflection
-        ↓
-Evidence Check
-        ↓
-Updated Judgment
-        ↓
-Repeat if necessary
+Artifact
+      ↓
+Independent Perspectives
+      ↓
+Repeated Signals
+      ↓
+Owner Review
+      ↓
+Revision Decision
+      ↓
+Future Audit
 ```
+
+Different reviewers may observe different aspects of the same artifact.
+
+Rather than averaging opinions, the Audit Loop looks for recurring signals that appear across independent perspectives.
+
+These recurring signals become evidence for the owner's review.
 
 ---
 
 ## Example
 
-### Initial Judgment
+Artifact:
 
-> "The current architecture needs another module."
+> Weekly Reflection Example
+
+↓
+
+### Reviewer A
+
+"The workflow is easy to follow."
+
+↓
+
+### Reviewer B
+
+"The comparison step is clear."
+
+↓
+
+### Reviewer C
+
+"Pattern detection feels slightly too definitive."
+
+↓
+
+### Repeated Signals
+
+Two independent reviewers suggest that the wording around pattern detection may sound stronger than intended.
+
+↓
+
+### Owner Review
+
+The repeated signal is reviewed together with the original design intention.
+
+The owner decides that replacing:
+
+> Pattern detected
+
+with
+
+> Possible recurring pattern
+
+better reflects the framework's philosophy.
+
+↓
+
+### Revision Decision
+
+The wording is revised.
+
+The workflow remains unchanged.
+
+↓
+
+### Future Audit
+
+Future reviewers evaluate whether the revised wording better communicates the intended meaning.
+
+The result becomes evidence for future revisions rather than proof that the current version is final.
 
 ---
 
-### Independent Review
+## Guardrails
 
-A review questions the assumption.
+Audit exists to improve decisions—not to replace them.
 
-> "What evidence suggests the current architecture is insufficient?"
+Repeated signals justify review.
 
----
+They do not automatically justify revision.
 
-### Counterargument
+Agreement between reviewers is not the same as evidence.
 
-The proposed expansion is based on intuition rather than observed failure.
+Different perspectives matter more than more perspectives.
 
-No implementation has been tested.
-
-No repeated issue has been identified.
+The owner remains responsible for deciding whether revision is appropriate.
 
 ---
 
-### Reflection
+## Why Audit?
 
-The concern may be reasonable.
+Individual feedback is often incomplete.
 
-However, there is currently no evidence that the existing design is insufficient.
+Independent perspectives may reveal recurring signals that a single reviewer would not notice.
 
----
+Audit therefore increases the quality of available evidence before revision.
 
-### Evidence Check
+Its purpose is not to answer:
 
-Current evidence:
+> "Who is right?"
 
-- No implementation failures
-- No repeated user feedback
-- No unresolved architectural conflict
+but rather:
 
-Evidence is insufficient to justify expansion.
+> "What evidence deserves another look?"
 
----
-
-### Updated Judgment
-
-Instead of expanding the architecture immediately:
-
-- Implement an MVP.
-- Collect implementation evidence.
-- Revisit the decision in a future revision.
-
-The architecture remains unchanged.
-
----
-
-## Key Idea
-
-The goal of the Audit Loop is **not to defend an existing belief.**
-
-It is to make every important judgment easier to question, verify, and improve.
-
-Both human reasoning and AI-generated reasoning are treated as hypotheses rather than conclusions.
-
-Neither should be accepted without reflection.
+The final judgment always belongs to the owner.
