@@ -2,28 +2,30 @@
 
 ## Purpose
 
-Weekly Reflection is a deliberate practice of revisiting recent experiences in order to better understand how one's thinking, behavior, and judgment evolve over time.
+Weekly Reflection is a deliberate practice of revisiting recent experiences in order to better understand how one's thinking, behavior, and judgment may change over time.
 
 It begins with the individual's own intention to reflect.
 
-Reflection is not performed because a system requests more data, but because the individual wants to better understand, preserve, or change patterns that may influence future decisions.
+Reflection is not performed because a system requests more data, but because the individual wants to better understand, preserve, or reconsider patterns that may influence future decisions.
 
-Human memory is incomplete, and isolated experiences rarely reveal recurring patterns on their own.
+Human memory is incomplete, and isolated experiences rarely provide enough context on their own.
 
-Weekly Reflection organizes recent observations into a structured record that can be reviewed over time.
+Weekly Reflection organizes recent observations into a structured record that can be compared over time.
 
-As reflections accumulate, they make it easier to identify:
+As reflections accumulate, they may make it easier to examine:
 
 - recurring questions
 - repeated assumptions
 - changes in judgment
 - evidence of growth
-- patterns worth preserving
+- possible patterns worth preserving
 - directions that may require reconsideration
 
 Weekly Reflection does not determine whether a decision is correct.
 
-It provides evidence that helps people make better-informed judgments.
+It provides additional evidence that the individual may use when reviewing their judgment.
+
+A reflection does not need to produce a lesson, pattern, or improvement every week.
 
 ---
 
@@ -38,16 +40,18 @@ Structured Record
       ↓
 Long-term Comparison
       ↓
-Evidence
+Evidence Review
       ↓
 Human Judgment
+      ↓
+Next Observation
 ```
 
 Reflection begins with the human.
 
 AI participates only after reflection has already taken place.
 
-The role of AI is to organize, compare, and challenge—not to replace human judgment.
+The role of AI is to help organize, compare, and challenge the available records—not to replace human judgment or independently determine what those records mean.
 
 ---
 
@@ -55,7 +59,7 @@ The role of AI is to organize, compare, and challenge—not to replace human jud
 
 Weekly Reflection is intentionally simple.
 
-Rather than recording every event, it focuses on questions that reveal changes in thinking.
+Rather than recording every event, it focuses on questions that may reveal changes in thinking and behavior.
 
 Typical questions include:
 
@@ -68,6 +72,8 @@ Typical questions include:
 These questions are examples rather than fixed rules.
 
 The exact questions may vary depending on the individual or context.
+
+Questions may also be skipped when they are not relevant.
 
 ---
 
@@ -86,43 +92,93 @@ The exact questions may vary depending on the individual or context.
 
 **What did I learn?**
 
-Many different programming problems shared the same underlying idea: state transitions.
+Many different programming problems appeared to share the same underlying idea: state transitions.
 
 **What surprised me?**
 
-Understanding the pattern behind the code was more valuable than memorizing individual solutions.
+Understanding the structure behind the code was more valuable than memorizing individual solutions.
 
 **What mistake did I repeat?**
 
-I still tend to over-design before implementing an idea.
+I still appeared to spend more time designing an idea than testing it through implementation.
 
 **What should I focus on next week?**
 
-Build smaller prototypes earlier and validate ideas with evidence.
+Build a smaller prototype earlier and observe whether earlier implementation improves the learning process.
 
 ↓
 
 ### Long-term Comparison
 
+Several weeks are compared to reduce the influence of recent memory and isolated events.
+
 Compared with previous weeks:
 
-- Planning time is decreasing.
-- Time spent implementing ideas is increasing.
-- Reflection has become more evidence-based.
+- Planning time appears to be decreasing.
+- Time spent implementing ideas appears to be increasing.
+- Reflections contain more references to observable actions and results.
 
 ↓
 
-### Evidence
+### Evidence Review
 
-Recurring pattern detected:
+The available records suggest a possible recurring pattern:
 
-> I often seek complete understanding before taking action.
+> I may seek complete understanding before taking action.
+
+This is a working interpretation, not a confirmed conclusion.
+
+A valid review may also produce:
+
+> No recurring pattern is currently supported by the available records.
 
 ↓
 
 ### Human Judgment
 
-Future decisions should favor earlier implementation followed by evidence-driven improvement rather than prolonged planning.
+The current evidence supports testing a different approach:
+
+> Begin implementation earlier, then use the resulting evidence to decide what requires further design.
+
+This judgment remains revisable.
+
+↓
+
+### Next Observation
+
+During the next project:
+
+- Was implementation started earlier?
+- Did earlier implementation reveal useful information?
+- Did reduced planning create meaningful problems?
+- Did any observation contradict the proposed pattern?
+
+The result becomes part of the next reflection rather than proof that the pattern is permanently true.
+
+---
+
+## Guardrails
+
+Weekly Reflection should not require the user to find a pattern every week.
+
+```text
+No lesson found.
+No recurring pattern observed.
+No judgment changed.
+```
+
+All are valid outcomes.
+
+A possible pattern should remain:
+
+- grounded in the available records
+- open to counterexamples
+- limited to the relevant behavior and context
+- revisable through future observation
+
+AI may suggest comparisons or possible interpretations.
+
+Those suggestions are not verified conclusions, and the user remains responsible for deciding what they mean.
 
 ---
 
@@ -130,7 +186,7 @@ Future decisions should favor earlier implementation followed by evidence-driven
 
 Weekly Reflection is not intended to produce perfect self-knowledge.
 
-Instead, it creates a repeatable process that makes long-term changes easier to observe.
+Instead, it creates a repeatable process that makes changes easier to observe and reconsider over time.
 
 Its purpose is not to answer:
 
@@ -138,6 +194,6 @@ Its purpose is not to answer:
 
 but rather:
 
-> "How is my judgment changing over time?"
+> "How might my judgment be changing over time?"
 
-Over weeks, months, and years, those changes become evidence rather than memory alone.
+Over weeks, months, and years, structured comparisons can provide evidence that recent memory alone may not reveal.
