@@ -1,0 +1,11 @@
+{
+  "name": "hra-event-reflection-reference",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
